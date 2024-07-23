@@ -1,11 +1,38 @@
 $color-primary: #600b75;
-$color-secondary: #c11eb1;
+$color-secondary: #831778;
 
+body {
+    font-family: 'Plus Jakarta Sans';font-size: 18px;
+}
+
+.fw-bolder {
+  font-weight: 500;
+}
 
 #profile-image {
     margin-left: -30px;
 }
 
-.text-gradient {
-  background-image: linear-gradient(to right, $color-primary, $color-secondary);
+.text-gradient,
+.navtitle {
+    background: linear-gradient(to right, #0617b3, #600b75, #c11eb1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.badge {
+  background: linear-gradient(to right, #0617b3, #600b75, #c11eb1);
+}
+
+.btn-outline-dark {
+    background-color: #0617b3;
+    border-color: #0617b3;
+    color: white;
+}
+
+.btn-outline-dark:hover {
+    background-color: #3c014b;
+    border-color: #3c014b;
 }
