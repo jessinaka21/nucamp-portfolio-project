@@ -1,7 +1,11 @@
-.navbar-brand {
-    font-weight: 900;
+$color-primary: #600b75;
+$color-secondary: #c11eb1;
+
+
+#profile-image {
+    margin-left: -30px;
 }
 
-.nav-links {
-
+.text-gradient {
+  background-image: linear-gradient(to right, $color-primary, $color-secondary);
 }
