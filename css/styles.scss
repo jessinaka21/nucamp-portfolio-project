@@ -14,12 +14,31 @@ body {
 }
 
 .text-gradient,
-.navtitle {
+.navtitle,
+h2 {
     background: linear-gradient(to right, #0617b3, #600b75, #c11eb1);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
+}
+
+.feature {
+  background: linear-gradient(to right, #0617b3, #600b75, #c11eb1);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  width: 50px;
+  height: 50px;
+}
+
+.feature i {
+  font-size: 25px;
 }
 
 .badge {
@@ -35,4 +54,17 @@ body {
 .btn-outline-dark:hover {
     background-color: #3c014b;
     border-color: #3c014b;
+}
+
+#tagline {
+    margin-top: 20px;
+}
+
+#skill {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skill:hover {
+  background-color: #d6d1d1; /* Light grey background on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
 }
