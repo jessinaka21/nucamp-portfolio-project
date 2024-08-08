@@ -2,11 +2,18 @@ $color-primary: #600b75;
 $color-secondary: #831778;
 
 body {
-    font-family: 'Plus Jakarta Sans';font-size: 18px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
 }
 
 .fw-bolder {
-  font-weight: 500;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+}
+
+.navtitle {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 600;
 }
 
 .text-gradient,
@@ -55,22 +62,13 @@ h2 {
     margin-top: 20px;
 }
 
-#skill {
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-#skill:hover {
-  background-color: #d6d1d1; /* Light grey background on hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
-}
-
  /* Base badge styles */
 .badge {
   --bs-badge-padding-x: 0.85em;
   --bs-badge-padding-y: 0.35em;
-  --bs-badge-font-size: 1.2em;
+  --bs-badge-font-size: 0.5em;
   letter-spacing: 2px;
-  --bs-badge-font-weight: 700;
+  --bs-badge-font-weight: 500;
   --bs-badge-color: #fff;
   --bs-badge-border-radius: 0.375rem;
   display: inline-block;
@@ -91,4 +89,27 @@ h2 {
   top: -1px;
 }
 
-        @import '_mediaqueries';
+.portfolio-img {
+  border-radius: 20px;
+  margin-left: 5%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    width: 100%; /* Ensure image scales with the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.profile-img {
+  margin-bottom: 3%;
+}
+
+.image-container img {
+            display: block;
+            width: 300px; /* Adjust as needed */
+            height: auto; /* Maintain aspect ratio */
+            transition: opacity 0.3s ease; /* Smooth transition */
+        }
+
+        .image-container:hover img {
+            opacity: 0.5; /* Change opacity on hover */
+        }
+
+@import '_mediaqueries';

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <title>Jessica Nakamura | Web Developer</title>
-<link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
  <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
          <!-- Favicon-->
@@ -19,12 +19,13 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="navtitle fw-bolder text-black">Jessica Nakamura | Web Developer</span></a>
+                    <a class="navbar-brand" href="index.html"><span class="navtitle">Jessica Nakamura | Web Developer</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small">
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                             <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
                             <li class="nav-item"><a class="nav-link" href="mailto:hi@jessicanakamura.com">Contact</a></li>
                         </ul>
@@ -38,9 +39,11 @@
             <!-- Header text content -->
             <div class="col-sm-6 text-center mb-4 mb-xxl-0">
                 <div class="text-xxl-start">
-                    <div class="badge text-white mb-4"><div class="text-uppercase">Web Development & Management for<br>Nonprofits & other Changemakers</div></div>
-                    <div class="fs-3 fw-light text-muted">Achieving your mission</div>
-                    <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">starts with your web presence </span></h1>
+                    <div class="badge text-white mb-4"><div class="text-uppercase">Web Development</div></div>
+                    <div class="badge text-white mb-4"><div class="text-uppercase">Digital Support</div></div>
+                    <div class="badge text-white mb-4"><div class="text-uppercase">Web Management</div></div>
+                    <div class="fs-3 fw-light text-muted">Web and digital support services</div>
+                    <h1 class="display-3 mb-5"><span class="text-gradient fw-bolder d-inline">for nonprofits and changemakers </span></h1>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                         <a class="btn btn-outline-dark btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Resume</a>
                         <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projects</a>
@@ -49,11 +52,8 @@
             </div>
                 <!-- Header profile picture -->
                  <div class="col-sm-6 text-center">
-                <img class="profile-img mt-4 mt-xxl-0" src="img/profile.png" alt="Photo of a woman" width="70%" height="65%"/>
+                <img class="portfolio-img" src="img/laptop-user.jpg" alt="Woman using laptop"/>
             </div>
-        </div>
-    </div>
-
 </header>
   <!-- About Section-->
             <section class="bg-light py-5">
@@ -61,6 +61,7 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-xxl-8">
                             <div class="text-center my-5">
+                                 <img class="profile-img mt-4 mt-xxl-0" src="img/profile.png" alt="Photo of a woman" width="30%" height="30%"/>
                                 <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">About Me</span></h2>
                                 <p class="lead fw-light mb-4">I'm a Hawai'i-based web developer helping nonprofits and changemakers build and maintain an impactful web presence.</p>
                                 <p class="text-muted" id="tagline">Educate, connect, inspire.</p>
@@ -79,10 +80,48 @@
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Jessica Nakamura 2025</div></div>
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; 2025 Nakamura Consulting LLC</div></div>
+                    <div class="col-auto"><a class="small text-dark" href="#" data-bs-toggle="modal" data-bs-target="#myModal">
+  Values Statement
+</a></div>
                     <div class="col-auto">
                         <a class="small text-dark" href="mailto:hi@jessicanakamura.com">hi@jessicanakamura.com</a>
                     </div>
+                    <!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">What I Believe</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <p>In these tumultuous times, I believe it is more important than ever for people of conscience to stand in their values and share them openly.
+
+While I understand that my being upfront about my values may turn away some potential clients, for others it signals safety and the opportunity for collaboration based on trust, shared values, and mutual respect.</p>
+
+<p>In contrast to performative politics that only address the symptoms that arise out of oppressive systems while leaving them in place, I seek to embody a radical politics, which means getting to the root of systemic issues. In order to do so, we need to be able to identify and name the harms of capitalism, militarism, colonization, white supremacy, ableism, and patriarchy.</p>
+
+<p>We need to be aware of and care about the ways these abusive powers kill people and the planet, as in the ongoing genocides in Sudan, the Congo, and Palestine, and industry's stripping of the earth's precious and finite resources in the global south. The earth is one living organism and we are so much more connected than we have been taught to believe.</p>
+
+<p>I believe in an equitable and just world. I believe in land back and indigenous sovereignty, from Hawai'i to Palestine and all over the globe. I believe in abolition and reparations. I believe that the authentic expression of all queer identities should be celebrated and protected. I believe in a world where people of all abilities live safely and securely.</p>
+
+<p>I believe that we all have a part to play in creating this world and that the more of us who find the courage to align ourselves fully with our values, the closer we are to bringing it into reality.</p>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
                     <!-- Commenting these out for now
                      div class="col-auto">
                         <a class="small" href="#!">Privacy</a>
